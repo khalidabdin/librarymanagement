@@ -1,0 +1,133 @@
+#top-bar{
+    font-size: 120%;
+    color: floralwhite;
+    font-weight: bold;   
+}
+
+#btn-search{
+    border-width: thin;
+    border-color: black;
+    font-weight: bold;
+}
+    
+.dropdown-menu a{
+    font-weight: bold;
+    color: floralwhite;
+}
+    
+#login{
+    margin-left: 1px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form-control{
+    border-width: thin;
+    font-weight: bold;
+    border-color: black; 
+}
+
+#btn-login{
+    font-weight: bold;
+    border-color: black;
+    border-width:thin;
+}
+    
+div.c-wrapper{
+    width: 80%;
+    margin: auto;
+}
+      
+#cards1{
+    border-color: black;
+    border-width: thin;
+    }
+    
+#cards2{
+    border-color: black;
+    border-width: thin;
+}
+
+#cardBlockCard{
+    height:auto;
+}
+
+#accordion{
+    margin-top: 8%;
+}
+
+#collapseOne{
+    margin-top: 5%;
+    height:auto;
+    font-weight: bolder;
+    font-size: 12;
+}
+
+#collapseTwo{
+    height:auto;
+    font-weight: bolder;
+    font-size: 12;
+}
+
+#collapseThree{
+    height:auto;
+    font-weight: bolder;
+    font-size: 12;
+}
+    
+@media screen and (max-width:998px){
+    #accordion{  
+        height:158%;
+    }
+    .card-block{
+        height:670px;
+    }
+}
+
+@media screen and (min-width:992px){
+    @media screen and (max-width:1198px){
+        #accordion{
+            height:134%;
+        }
+        .card-block{
+            height:670px;
+        }
+    }
+}
+
+#header{
+    margin-top: 10%;
+    margin-left: 2px;
+}
+
+.thead{
+    color: floralwhite;
+}
+    
+#contact-us-table{
+    border-color: black;
+    border-width: medium;
+}
+
+.table, th, td {
+    border: 1px solid black;
+}
+
+#headerAbout{
+      margin-top: 15%;  
+}
+
+#text{
+    font-weight: bold;
+    padding: 15px;
+    border:2px solid black;
+    font-size:20px;
+    width:auto;
+    position: auto;
+    height: auto; 
+}
+
+#registrationForm{
+    font-weight: bold;
+}
+
